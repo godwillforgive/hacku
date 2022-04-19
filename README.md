@@ -10,7 +10,21 @@ I want to tell you how easy it is to hack almost any account, no matter if it is
 
 I hope you use this guide to understand how easy it is for you, and anyone else, to get hacked, draw conclusions from what you read, and be even more protected.
 ## Tools we will need:
-* **XAMPP**
-   * 1
-* **NGROK**
-  * 2
+**XAMPP**
+
+_Is a free and open-source cross-platform web server solution stack package developed by Apache Friends._
+
+_Needed to run the server on the local computer._
+
+[Download from official site](https://www.apachefriends.org/ru/index.html).
+
+**NGROK**
+
+_Ngrok is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine._
+
+_Needed so that our local computer can be connected to from the outside._
+
+[Download from official site.](https://ngrok.com/download)
+
+
+
