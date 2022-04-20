@@ -19,7 +19,7 @@ We will talk about ***"Phishing"*** and its ***varieties***.
 
 You can read what ***"Phishing"*** is ***[here](https://en.wikipedia.org/wiki/Phishing).***
 
-## What you need to know:
+## What you need to know
 
 * HTML
   * _We need it to create our fake website, "HTML" is very easy to learn and for our purposes, a basic knowledge of this markup language is enough._
@@ -50,7 +50,7 @@ _It will save you money and time, you will not have to look for and pay a freela
 
 _You only need to know how to "CTRL+C", "CTRL+V", because there are more than enough ready-made solutions on the Internet for our needs._
 
-## Tools we will need:
+## Tools we will need
 ### XAMPP
 
 Is a free and open-source cross-platform web server solution stack package developed by Apache Friends.
@@ -79,6 +79,12 @@ Needed so that our local computer can be connected to from the outside.
 * _Copy your token on the main page of ngrok, point 2._
   * ![ngrok auth token](img/ngrok-token.png) 
 * _Open the previously downloaded "ngrok.exe" file and paste the copied token into it, then press "Enter", that's it._
+## Create our page
+If you have the skills of web-development, create it yourself.
 
+If you do not know how, a freelancer for a modest fee will do it for you.
 
+I will show you an example of how our Instagram page should look like, attentive people will immediately notice that this is a fake page, I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
+(Tested. 4 out of 10 people.)
 
+Of course those who are more attentive to detail, they are not impressed by this, so the goal of the attacker is to create an exact copy of the authorization page of the site.
