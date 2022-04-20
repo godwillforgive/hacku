@@ -1,13 +1,14 @@
 # How to hack anyone while drinking tea at home.
-This manual is for educational purposes only.
+#### Legal Disclaimer :
+It is illegal to use the guide to attack targets without prior mutual consent.
 
-I am not responsible for any malicious use of this manual.
+It is the end user's responsibility to comply with all applicable local, state, and federal laws.
+
+The author assumes no responsibility or liability for any misuse or damage caused by this manual.
 ## Introduction
 Hello, I want to share with you my observations in the field of information security.
 
 I am far from a professional in this field, I see myself more as a game developer, but nevertheless, I want to tell you how to easily hack almost any account, be it "Instagram", "Facebook", "Twitter" or even "Binance", without much effort or skill.
-
-***I thought for a long time, is it worth writing this manual, will it hurt anyone?***
 
 I hope this guide is not a call to action, it is meant to help you understand how easy it is to get hacked, and to keep you from leaking personal information.
 
@@ -42,13 +43,13 @@ You can read what ***"Phishing"*** is ***[here](https://en.wikipedia.org/wiki/Ph
 
 > — Why do we need to know this if you say we can do without knowledge and skills?
 
-**HTML/CSS/Bootstrap:**
+**HTML/CSS/Bootstrap :**
 
-_It will save you money and time, you will not have to look for and pay a freelancer to create you a copy of the page we need._
+It will save you money and time, you will not have to look for and pay a freelancer to create you a copy of the page we need.
 
-**As for PHP or any other server-side programming language:**
+**As for PHP or any other server-side programming language :**
 
-_You only need to know how to "CTRL+C", "CTRL+V", because there are more than enough ready-made solutions on the Internet for our needs._
+You only need to know how to "CTRL+C", "CTRL+V", because there are more than enough ready-made solutions on the Internet for our needs.
 
 ## Tools we will need
 ### XAMPP
@@ -88,7 +89,7 @@ I will show you an example of how our Instagram page should look like, attentive
 
 Of course those who are more attentive to details, they will not be impressed by this, so the ***goal of the attacker*** is to ***create an exact copy*** of the authorization page.
 
-#### An example of a `<form>` that we will need:
+#### An example of a `<form>` that we will need :
 
 `<form action="auth.php" method="POST">`
 
