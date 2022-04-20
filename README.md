@@ -72,9 +72,13 @@ Needed so that our local computer can be connected to from the outside.
 
 #### Setup and adjustment:
 
-* ***First of all, you need to [sign up](https://dashboard.ngrok.com/signup) to get your personal token.***
+* _First of all, you need to ***[sign up](https://dashboard.ngrok.com/signup)*** to get your personal token._
 
-* ***Then, you need to [download "ngrok" from official site](https://ngrok.com/download).***
+* _Then, you need to ***[download "ngrok" from official site](https://ngrok.com/download)***._
 
+* _Copy your token on the main page of ngrok, point 2._
+  * ![ngrok auth token](ngrok-token.png) 
+* _Open the previously downloaded "ngrok.exe" file and paste the copied token into it, then press "Enter"._
+* _This completes the setup, we will need the ngrok later._
 
 
