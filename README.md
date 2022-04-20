@@ -63,7 +63,7 @@ Needed to run the server on the local computer.
 
 * _Just click "Next", you do not need to change anything during the installation._
 
-* _The exception may be third-party programs that XAMPP offers to install along with it, in this case, click " Decline", we need only XAMPP._
+* _The exception may be third-party programs that XAMPP offers to install along with it, in this case, click "Decline", we need only XAMPP._
 ### NGROK
 
 Ngrok is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine.
