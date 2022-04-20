@@ -134,4 +134,4 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * 123
 
 
-### If you do not know _[how](https://www.freecodecamp.org/learn/responsive-web-design/)_, a freelancer for a modest fee will do it for you.
+### If you do not know [how](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
