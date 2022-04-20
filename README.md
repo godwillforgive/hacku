@@ -82,18 +82,28 @@ Needed so that our local computer can be connected to from the outside.
 * _Open the previously downloaded "ngrok.exe" file and paste the copied token into it, then press "Enter", that's it._
 ## Create our page
 ### If you have the skills of web-development, create it yourself.
+I will use "Instagram" as an example.
 
-I will show you an example of how our Instagram page should look like, attentive people will immediately notice that this is a fake page, I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
+I will show you how our "Instagram" page should look like.
+
+Attentive people will immediately notice that this is a fake page.
+
+I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
 
 ![fake instagram page](img/fake-ig.png)
 
-Of course those who are more attentive to details, they will not be impressed by this, so the ***goal of the attacker*** is to ***create an exact copy*** of the authorization page.
+Of course those who are more attentive to details, they will not be impressed by this.
+
+The **goal of the attacker** is to **create an exact copy** of the authorization page.
+
+After you have made an exact copy of the page, **we need a login/password `<form>` that we will capture**, below is an example of the form and a description of its attributes that we will work with.
+<br>
 
 #### An example of a `<form>` that we will need :
 
 `<form action="auth.php" method="POST">`
 
-_The action attribute specifies where to send the form-data when a form is submitted._
+_The ***action=""*** attribute specifies where to send the form-data when a form is submitted._
 
 `<label for="username"></label>`
                 
@@ -110,5 +120,18 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 `<input id="submit" type="submit" value="Log In">`
 
 `</form>`
+
+### Using special software
+
+#### Like ***[Shark](https://github.com/bhikandeshmukh/shark),*** ***[zphisher](https://github.com/htr-tech/zphisher)*** and others.
+
+* **Advantages of using third-party software :**
+  * For free
+  * Open Source
+  * Large selection of the most popular social networks and sites.
+  * Quickly and accurately copies the site.
+* **Disadvantages of using third-party software :**
+  * 123
+
 
 ### If you do not know [how](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
