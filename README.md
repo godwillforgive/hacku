@@ -78,7 +78,7 @@ Needed so that our local computer can be connected to from the outside.
 
 * _Copy your token on the main page of ngrok, point 2._
   * ![ngrok auth token](img/ngrok-token.png) 
-* _Open the previously downloaded "ngrok.exe" file and paste the copied token into it, then press "Enter"._
-* _This completes the setup, we will need the ngrok later._
+* _Open the previously downloaded "ngrok.exe" file and paste the copied token into it, then press "Enter", that's it._
+
 
 
