@@ -84,8 +84,6 @@ Needed so that our local computer can be connected to from the outside.
 
 I will show you an example of how our Instagram page should look like, attentive people will immediately notice that this is a fake page, I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
 
-_(Tested. 4 out of 10 people.)_
-
 ![fake instagram page](img/fake-ig.png)
 
 Of course those who are more attentive to details, they will not be impressed by this, so the goal of the attacker is to create an exact copy of the authorization page.
