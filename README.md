@@ -86,6 +86,28 @@ I will show you an example of how our Instagram page should look like, attentive
 
 ![fake instagram page](img/fake-ig.png)
 
-Of course those who are more attentive to details, they will not be impressed by this, so the goal of the attacker is to create an exact copy of the authorization page.
+Of course those who are more attentive to details, they will not be impressed by this, so the ***goal of the attacker*** is to ***create an exact copy*** of the authorization page.
+
+#### An example of a `<form>` that we will need:
+
+`<form action="auth.php" method="POST">`
+
+_The action attribute specifies where to send the form-data when a form is submitted._
+
+`<label for="username"></label>`
+                
+`<input type="text" name="user_name" placeholder="Phone number, username or email">`
+
+_The attribute ***name=""*** must match the value of the variable ***$name in the auth.php*** file_
+                
+`<label for="pwd"></label>`
+                
+`<input type="password" name="user_password" placeholder="Password">`
+
+_The attribute ***name=""*** must match the value of the variable ***$password in the auth.php*** file_
+                
+`<input id="submit" type="submit" value="Log In">`
+
+`</form>`
 
 ### If you do not know [how](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
