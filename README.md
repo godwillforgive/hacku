@@ -3,13 +3,13 @@ This manual is for educational purposes only.
 
 I am not responsible for any malicious use of this manual.
 ## Introduction
-Hello, my name is Vlad and I want to share with you my observations in the field of information security.
+Hello, I want to share with you my observations in the field of information security.
 
 I am far from a professional in this field, I see myself more as a game developer, but nevertheless, I want to tell you how to easily hack almost any account, be it "Instagram", "Facebook", "Twitter" or even "Binance", without much effort or skill.
 
 ***I thought for a long time, is it worth writing this manual, will it hurt anyone?***
 
-Again, I hope this guide is not a call to action, it is meant to help you understand how easy it is to get hacked, and to keep you from leaking personal information.
+I hope this guide is not a call to action, it is meant to help you understand how easy it is to get hacked, and to keep you from leaking personal information.
 
 This guide will serve even those people who are far from programming and from IT technologies.
 
@@ -17,36 +17,64 @@ For many people who are even a little bit interested in information security, th
 
 We will talk about ***"Phishing"*** and its ***varieties***.
 
-You can read what ***"Phishing"*** is [here](https://en.wikipedia.org/wiki/Phishing).
+You can read what ***"Phishing"*** is ***[here](https://en.wikipedia.org/wiki/Phishing).***
 
 ## What you need to know:
 
-**As I said before, this method requires almost no skills and knowledge, but will be a plus if you have the following skills:**
 * HTML
-  * We need it to create our fake website, "HTML" is very easy to learn and for our purposes, a basic knowledge of this markup language is enough.
+  * _We need it to create our fake website, "HTML" is very easy to learn and for our purposes, a basic knowledge of this markup language is enough._
   * ***[HTML/CSS Course](https://www.freecodecamp.org/learn/responsive-web-design/).***
 * CSS
-  * Needed for the design of our HTML document.
-  * ***The course I attached above includes a study of CSS.***
+  * _Needed for the design of our HTML document._
+  * _The course I attached above includes a study of CSS._
 * Bootstrap
+  * _An open-source framework used to create the layout of adaptive web pages._
+  * _Simplifies and speeds up our page layout process._
+  * ***[Bootstrap Introduction](https://getbootstrap.com/docs/5.1/getting-started/introduction/)***
+
 * PHP
+  * _We need it to capture data from a < form > and then send it to an attacker._
+
+  * _Any server-side programming language will do, be it Javascript, Python, Java, C#, etc._
+
+  * _My choice was PHP only because I already tested this method._
+<br>
+
+### — Why do we need to know this if you say we can do without knowledge and skills?
+
+**HTML/CSS/Bootstrap:**
+
+_It will save you money and time, you will not have to look for and pay a freelancer to create you a copy of the page we need._
+
+**As for PHP or any other server-side programming language:**
+
+_You only need to know how to "CTRL+C", "CTRL+V", because there are more than enough ready-made solutions on the Internet for our needs._
 
 ## Tools we will need:
 ### XAMPP
 
-_Is a free and open-source cross-platform web server solution stack package developed by Apache Friends._
+Is a free and open-source cross-platform web server solution stack package developed by Apache Friends.
 
-_Needed to run the server on the local computer._
+Needed to run the server on the local computer.
 
-[Download from official site](https://www.apachefriends.org/ru/index.html).
+#### Setup and adjustment:
 
+* ***[Download from official site](https://www.apachefriends.org/ru/index.html).***
+
+* _Just click "Next", you do not need to change anything during the installation._
+
+* _The exception may be third-party programs that XAMPP offers to install along with it, in this case, click " Decline", we need only XAMPP._
 ### NGROK
 
-_Ngrok is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine._
+Ngrok is a globally distributed reverse proxy fronting your web services running in any cloud or private network, or your machine.
 
-_Needed so that our local computer can be connected to from the outside._
+Needed so that our local computer can be connected to from the outside.
 
-[Download from official site.](https://ngrok.com/download)
+#### Setup and adjustment:
+
+* ***First of all, you need to [sign up](https://dashboard.ngrok.com/signup) to get your personal token.***
+
+* ***Then, you need to [download "ngrok" from official site](https://ngrok.com/download).***
 
 
 
