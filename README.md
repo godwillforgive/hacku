@@ -189,5 +189,5 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 * Launch XAMPP (as administrator)
 * We are only interested in the Apache module, click on "Start" in front of it.
   * ![xampp](img/xampp.png)
-* If the "Apache" light is green, then everything is working, you can check by clicking on the link:
-[127.0.0.1](127.0.0.1) or [localhost](localhost)
+* If "Apache" is green, then everything is working, you can check it by typing in your browser :
+`127.0.0.1` or `localhost`
