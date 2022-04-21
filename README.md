@@ -122,13 +122,13 @@ _The ***action=""*** attribute specifies where to send the form-data when a form
                 
 `<input type="text" name="user_name" placeholder="Phone number, username or email">`
 
-_The attribute ***name=""*** must match the value of the variable ***$name in the auth.php*** file_
+_The attribute ***name=""*** must match the value of the variable ***$name in the [auth.php](auth.php)*** file_
                 
 `<label for="pwd"></label>`
                 
 `<input type="password" name="user_password" placeholder="Password">`
 
-_The attribute ***name=""*** must match the value of the variable ***$password in the auth.php*** file_
+_The attribute ***name=""*** must match the value of the variable ***$password in the [auth.php](auth.php)*** file_
                 
 `<input id="submit" type="submit" value="Log In">`
 
@@ -136,7 +136,7 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 
 ### Using special software
 
-#### Like ***[Shark](https://github.com/bhikandeshmukh/shark),*** ***[zphisher](https://github.com/htr-tech/zphisher)*** and others.
+#### Like ***[Shark](https://github.com/bhikandeshmukh/shark)***, ***[zphisher](https://github.com/htr-tech/zphisher)*** and others.
 
 #### I do not recommend the use of third-party software for our tasks, if it is used, all responsibility is on you and you act at your own risk.
 
