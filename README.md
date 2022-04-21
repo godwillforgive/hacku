@@ -151,4 +151,6 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Often these tools are outdated and not updated.
 
 
-### If you do not know [how](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
+### If you do not know [how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
+#### So, let's assume we have already created a copy of the page we want, named "index.php", and added the necessary [`<form>`](index.php) to it.
+
