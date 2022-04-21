@@ -114,25 +114,25 @@ After you have made an exact copy of the page, **we need a login/password `<form
 
 #### An example of a `<form>` that we will need :
 
-`<form action="auth.php" method="POST">`
+> `<form action="auth.php" method="POST">`
 
 _The ***action=""*** attribute specifies where to send the form-data when a form is submitted._
 
-`<label for="username"></label>`
+> `<label for="username"></label>`
                 
-`<input type="text" name="user_name" placeholder="Phone number, username or email">`
+> `<input type="text" name="user_name" placeholder="Phone number, username or email">`
 
 _The attribute ***name=""*** must match the value of the variable ***$name in the [auth.php](auth.php)*** file_
                 
-`<label for="pwd"></label>`
+> `<label for="pwd"></label>`
                 
-`<input type="password" name="user_password" placeholder="Password">`
+> `<input type="password" name="user_password" placeholder="Password">`
 
 _The attribute ***name=""*** must match the value of the variable ***$password in the [auth.php](auth.php)*** file_
                 
-`<input id="submit" type="submit" value="Log In">`
+> `<input id="submit" type="submit" value="Log In">`
 
-`</form>`
+> `</form>`
 
 ### Using special software
 
@@ -183,27 +183,31 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 * `$chat_id`
   * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot @ShowJsonBot.
 #### That's all, there are comments in the ***[auth.php](auth.php)*** file itself to help you understand the rest of the code we can work with.
-## Let's go
+## Start our server
 ### So, you installed "XAMPP", "NGROK", created a bot, configured the ***[auth.php](auth.php)*** file, it's time to start our server and watch the result of our work.
 #### Configuring and running XAMPP :
 * To our site can be opened locally, the folder with the site, you need to put on the path:
 `C:\xampp\htdocs\your_folder_name`
 * Launch XAMPP (as administrator)
 * We are only interested in the Apache module, click on "Start" in front of it.
-  * ![xampp](img/xampp.png)
+
+![xampp](img/xampp.png)
+
 * If "Apache" is green, then everything is working, you can check this by typing in your browser: `127.0.0.1` or `localhost`
 This will take you to the main page with the documentation and settings for our local server.
 * To open the page we created, we must add `/your_folder_name` after `127.0.0.1` or `localhost`, for example :
 
-`127.0.0.1/your_folder_name`
+> `127.0.0.1/your_folder_name`
 
-`localhost/your_folder_name`
+> `localhost/your_folder_name`
 #### Ngrok :
 Ngrok allows you to connect to your local server from the outside
 * Open ngrok.exe
 * At the command prompt, write the following : `ngrok http 80`
   * If you have done everything correctly, you will see a window with the following contents :
-  * ![ngrok run](img/ngrok.png)
+
+![ngrok run](img/ngrok.png)
+
 * We are interested in the last item "Forwarding", it is underlined with a red line.
 * There will be a link which as you can see in the console on the arrow `->` leads to your local server.
 * To make the link redirects us to your fake site, you need to add `/your_folder_name` at the end of the link, similarly to 127.0.0.1 or localhost, example :
@@ -214,12 +218,21 @@ Ngrok allows you to connect to your local server from the outside
 * If the browser redirected us to the "Instagram" page and the username and password came to us in the group, then everything works, congratulations.
 * The redirect after authorization, you can change in the file ***[auth.php](auth.php)***.
 
-`if ($sendToTelegram) {`
-  
-  **header('Location: `https://instagram.com`');**
+> if ($sendToTelegram) {
 
-`} else {`
+> header('Location: ***`https://instagram.com`***');
 
-`echo "Error";`
+> } else {
 
-`}`
+> echo "Error";
+
+> }
+## Let's go
+### The fake page is ready, the server is running, what next? Just send the link to the victim and wait?
+Definitely not!
+
+Now we are going to talk to you about something without which all of the above would not work: **human psychology** and ***[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))***.
+
+Thanks specifically to social engineering, this method is one of the most successful in the field of hacking, if not the most successful.
+
+The fact is that people are easily tricked into doing what the attacker wants.
