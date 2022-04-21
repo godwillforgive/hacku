@@ -178,3 +178,8 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Copy the id with the “-“ sign we will need it later, you can now remove @ShowJsonBot from our group
 ### Setting up our ["auth.php"](auth.php) :
 #### If you have not changed the attribute `name=""` from our ["index.php"](index.php) `<form>`, leave the variables `$name` and `$password` unchanged.
+* `$token`
+  * In the `$token` variable, we need to insert the token that we got when we created the bot from @BotFather.
+* `$chat_id`
+  * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot @ShowJsonBot.
+#### That's all, there are comments in the ["auth.php"](auth.php) file itself to help you understand the rest of the code we can work with.
