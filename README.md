@@ -16,7 +16,20 @@ This guide will serve even those people who are far from programming and from IT
 
 For many people who are even a little bit interested in information security, they are unlikely to learn anything new, nevertheless the simplicity and efficiency of this method is very high and it is impossible to defend against it 100%.
 
-We will talk about **"Phishing"** and its **varieties**.
+We will talk about **"Phishing"** and its **varieties :**
+* **Mail Phishing**
+  * Mass mailing of letters.
+* **Spear Phishing** 
+  * aimed at a specific person or organization.
+* **Whaling**
+  * aimed for executive positions, CEO, CFO, etc.
+* **Smishing**
+  * SMS phishing.
+  * In this manual, we will use this method.
+* **Vishing**
+  * Voice phishing, call center.
+
+#### There are many examples of phishing, we will not list them all, otherwise it may take too long.
 
 You can read what **"Phishing"** is ***[here](https://en.wikipedia.org/wiki/Phishing).***
 
@@ -125,13 +138,17 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 
 #### Like ***[Shark](https://github.com/bhikandeshmukh/shark),*** ***[zphisher](https://github.com/htr-tech/zphisher)*** and others.
 
+#### I do not recommend the use of third-party software for our tasks, if it is used, all responsibility is on you and you act at your own risk.
+
 * **Advantages of using third-party software :**
   * For free
   * Open Source
   * Large selection of the most popular social networks and sites.
   * Quickly and accurately copies the site.
 * **Disadvantages of using third-party software :**
-  * 123
+  * Probability of introducing malicious code.
+  * Setup and installation requires skill.
+  * Often these tools are outdated and not updated.
 
 
 ### If you do not know [how](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
