@@ -14,7 +14,7 @@ I hope this guide is not a call to action, it is meant to help you understand ho
 
 This guide will serve even those people who are far from programming and from IT technologies.
 
-For many people who are even a little bit interested in information security, they are unlikely to learn anything new, nevertheless the simplicity and efficiency of this method is very high and it is impossible to defend against it 100%.
+Many people with even a slight interest in information security are unlikely to learn anything new, nevertheless the simplicity and effectiveness of this method is very high, and it is impossible to defend against it 100%.
 
 We will talk about **"Phishing"** and its **varieties :**
 * **Mail Phishing**
