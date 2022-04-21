@@ -176,4 +176,5 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name: @ShowJsonBot
   * After we have added this bot, it should send us a message to the group, we are interested in the line: **`"chat": { "id": -111111111}`**
   * Copy the id with the “-“ sign we will need it later, you can now remove @ShowJsonBot from our group
-
+### Setting up our ["auth.php"](auth.php) :
+#### If you have not changed the attribute `name=""` from our ["index.php"](index.php) `<form>`, leave the variables `$name` and `$password` unchanged.
