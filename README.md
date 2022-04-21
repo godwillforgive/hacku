@@ -8,7 +8,7 @@ The author assumes no responsibility or liability for any misuse or damage cause
 ## Introduction
 Hello, I want to share with you my observations in the field of information security.
 
-I am far from a professional in this field, I see myself more as a game developer, but nevertheless, I want to tell you how to easily hack almost any account, be it "Instagram", "Facebook", "Twitter" or even "Binance", without much effort or skill.
+I am far from a professional in this field, but nevertheless, I want to tell you how to easily hack almost any account, be it "Instagram", "Facebook", "Twitter" or even "Binance", without much effort or skill.
 
 I hope this guide is not a call to action, it is meant to help you understand how easy it is to get hacked, and to keep you from leaking personal information.
 
