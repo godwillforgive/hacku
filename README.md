@@ -185,7 +185,9 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 #### That's all, there are comments in the ***[auth.php](auth.php)*** file itself to help you understand the rest of the code we can work with.
 ## Let's go
 ### So, you installed "XAMPP", "NGROK", created a bot, configured the ***[auth.php](auth.php)*** file, it's time to start our server and watch the result of our work.
-#### Running XAMPP :
+#### Configuring and running XAMPP :
+* To our site can be opened locally, the folder with the site, you need to put on the path:
+`C:\xampp\htdocs\your_folder_name`
 * Launch XAMPP (as administrator)
 * We are only interested in the Apache module, click on "Start" in front of it.
   * ![xampp](img/xampp.png)
