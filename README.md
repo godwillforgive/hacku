@@ -152,8 +152,8 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Often these tools are outdated and not updated.
 
 
-### If you do not know [how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
-#### So, let's assume we have already created a copy of the page we want, named ["index.php"](index.php), and added the necessary [`<form>`](https://github.com/godwillforgive/hacku/edit/main/README.md#an-example-of-a-form-that-we-will-need-) to it.
+### If you do not know ***[how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/)***, a freelancer for a modest fee will do it for you.
+#### So, let's assume we have already created a copy of the page we want, named ***[index.php](index.php)***, and added the necessary ***[`<form>`](https://github.com/godwillforgive/hacku/edit/main/README.md#an-example-of-a-form-that-we-will-need-)*** to it.
 ## Capturing data from `<form>`
 ### We will consider only one of the methods :
 
@@ -176,10 +176,12 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name: @ShowJsonBot
   * After we have added this bot, it should send us a message to the group, we are interested in the line: **`"chat": { "id": -111111111}`**
   * Copy the id with the “-“ sign we will need it later, you can now remove @ShowJsonBot from our group
-### Setting up our ["auth.php"](auth.php) :
-#### If you have not changed the attribute `name=""` from our ["index.php"](index.php) `<form>`, leave the variables `$name` and `$password` unchanged.
+### Setting up our ***[auth.php](auth.php)*** :
+#### If you have not changed the attribute `name=""` from our ***[index.php](index.php)*** `<form>`, leave the variables `$name` and `$password` unchanged.
 * `$token`
   * In the `$token` variable, we need to insert the token that we got when we created the bot from @BotFather.
 * `$chat_id`
   * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot @ShowJsonBot.
-#### That's all, there are comments in the ["auth.php"](auth.php) file itself to help you understand the rest of the code we can work with.
+#### That's all, there are comments in the ***[auth.php](auth.php)*** file itself to help you understand the rest of the code we can work with.
+## Let's go
+### So, you installed "XAMPP", "NGROK", created a bot, configured the ***[auth.php](auth.php)*** file, it's time to start our server and watch the result of our work.
