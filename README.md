@@ -152,5 +152,5 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 
 
 ### If you do not know [how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
-#### So, let's assume we have already created a copy of the page we want, named "index.php", and added the necessary [`<form>`](index.php) to it.
+#### So, let's assume we have already created a copy of the page we want, named ["index.php"](index.php), and added the necessary [`<form>`](https://github.com/godwillforgive/hacku/edit/main/README.md#an-example-of-a-form-that-we-will-need-) to it.
 
