@@ -198,3 +198,14 @@ This will take you to the main page with the documentation and settings for our 
 `127.0.0.1/your_folder_name`
 
 `localhost/your_folder_name`
+#### Ngrok :
+Ngrok allows you to connect to your local server from the outside
+* Open ngrok.exe
+* At the command prompt, write the following : `ngrok http 80`
+  * If you have done everything correctly, you will see a window with the following contents :
+  * ![ngrok run](img/ngrok.png)
+* We are interested in the last item "Forwarding", it is underlined with a red line.
+* There will be a link which as you can see in the console on the arrow `->` leads to your local server.
+* To make the link redirects us to your fake site, you need to add `/your_folder_name` at the end of the link, similarly to 127.0.0.1 or localhost, example :
+`777-777-777.ngrok.io/your_folder_name`
+* If you have done everything correctly, the link from ngrok will take you to your local server, so now we can check if our form works.
