@@ -233,7 +233,7 @@ Ngrok allows you to connect to your local server from the outside
 ### The fake page is ready, the server is running, what next? Just send the link to the victim and wait?
 Definitely not!
 
-Now we are going to talk to you about something without which all of the above would not work: **human psychology** and ***[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))***.
+Now we are going to talk to you about something without which all of the above would not work: ***[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))***.
 
 Thanks specifically to social engineering, this method is one of the most successful in the field of hacking, if not the most successful.
 
