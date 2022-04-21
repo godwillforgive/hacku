@@ -29,9 +29,9 @@ We will talk about **"Phishing"** and its **varieties :**
 * **Vishing**
   * Voice phishing, call center.
 
-#### There are many examples of phishing, we will not list them all, otherwise it may take too long.
+#### There are many examples of phishing, we will not list them all, you can read what "Phishing" is ***[here](https://en.wikipedia.org/wiki/Phishing).***
 
-You can read what **"Phishing"** is ***[here](https://en.wikipedia.org/wiki/Phishing).***
+
 
 ## What you need to know
 
@@ -145,6 +145,7 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
   * Open Source
   * Large selection of the most popular social networks and sites.
   * Quickly and accurately copies the site.
+  * Everything does for you, you will only have to send the link and wait for the result.
 * **Disadvantages of using third-party software :**
   * Probability of introducing malicious code.
   * Setup and installation requires skill.
