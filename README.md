@@ -153,4 +153,26 @@ _The attribute ***name=""*** must match the value of the variable ***$password i
 
 ### If you do not know [how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/), a freelancer for a modest fee will do it for you.
 #### So, let's assume we have already created a copy of the page we want, named ["index.php"](index.php), and added the necessary [`<form>`](https://github.com/godwillforgive/hacku/edit/main/README.md#an-example-of-a-form-that-we-will-need-) to it.
+## Capturing data from `<form>`
+### We will consider only one of the methods :
+
+* **Sending data from a `<form>` by a "Telegram" bot :**
+  * First, we need to find a bot with a nickname in "Telegram" : @BotFather
+  * Open the bot window, press /start
+  * Next we are interested in the /newbot command
+  * @BotFather will ask for a name for our bot. The name is what will be displayed in the chat list.
+  * @BotFather asks us to set the username for the bot. This is the username, that you can use to find the bot in searches. (username must end with the prefix "bot")
+  * After we submit our username, @BotFather tells us that the bot was successfully created and gives us a token to access the bot via the HTTP API. We'll need it later.
+
+**Now we need to create a group in Telegram to which we will receive intercepted data.**
+
+**(WE NEED TO CREATE GROUP NOT CHANNEL)**
+
+* **Creating and configuring a group :**
+  * Click "New Group" and name the channel as you like.
+  * Add the bot to our group, which we created earlier, the bot is added by its username, for example: "@yourbot" without the quotes.
+  * Now go to our bot and press /start, do not touch it again!
+  * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name: @ShowJsonBot
+  * After we have added this bot, it should send us a message to the group, we are interested in the line: **`"chat": { "id": -111111111}`**
+  * Copy the id with the “-“ sign we will need it later, you can now remove @ShowJsonBot from our group
 
