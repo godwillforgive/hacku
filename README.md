@@ -227,6 +227,8 @@ Ngrok allows you to connect to your local server from the outside
 > echo "Error";
 
 > }
+#### And that's what we have!
+![fake instagram page](img/ig-access.gif)
 ## Let's go
 ### The fake page is ready, the server is running, what next? Just send the link to the victim and wait?
 Definitely not!
