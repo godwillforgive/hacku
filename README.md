@@ -1,5 +1,7 @@
 # How to hack anyone while drinking tea at home.
-#### Legal Disclaimer :
+
+### Legal Disclaimer :
+
 It is illegal to use the guide to attack targets without prior mutual consent.
 
 It is the end user's responsibility to comply with all applicable local, state, and federal laws.
