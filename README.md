@@ -90,10 +90,6 @@ You only need to know how to **CTRL+C**, **CTRL+V**.
 
 Needed to run the server on the local computer.
 
-Is a free and open-source cross-platform web server solution stack package 
-
-developed by Apache Friends.
-
 #### Setup and adjustment:
 
 * **[Download from official site](https://www.apachefriends.org/ru/index.html).**
@@ -104,10 +100,6 @@ developed by Apache Friends.
 
 ### NGROK
 Needed so that our local computer can be connected to from the outside.
-
-Ngrok is a globally distributed reverse proxy
-
-fronting your web services running in any cloud or private network, or your machine.
 
 #### Setup and adjustment:
 
@@ -125,15 +117,11 @@ fronting your web services running in any cloud or private network, or your mach
 
 ### If you have the skills of web-development, create it yourself.
 
-I will use "Instagram" as an example.
+I will use Instagram as an example.
 
 Attentive people will immediately notice that this is a fake page.
 
-I made it literally in 20 minutes, but many people, 
-
-even those who spend a lot of time on Instagram
-
-may not notice the differences.
+I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
 
 ![fake instagram page](img/fake-ig.png)
 
@@ -142,7 +130,7 @@ may not notice the differences.
 When the makeup is done, it's time to talk about the main component of our site `<form>`.
 <br>
 
-### An example of a `<form>` that we will need :
+#### An example of a `<form>` that we will need :
 
 `<form action="auth.php" method="POST">`
 
@@ -168,29 +156,43 @@ When the makeup is done, it's time to talk about the main component of our site 
 
 ### Using special software
 
-#### Like **[Shark](https://github.com/bhikandeshmukh/shark)**, **[zphisher](https://github.com/htr-tech/zphisher)** and others.
+On the Internet, there are many tools that are designed specifically for phishing,
 
-I do not recommend the use of third-party software for our tasks, if it is used, all responsibility is on you and you act at your own risk.
+they do everything for you, you only have to send a link to our victim.
 
-* Advantages
-  * For free
-  * Open Source
-  * Large selection of the most popular social networks and sites.
-  * Quickly and accurately copies the site.
-  * Everything does for you, you will only have to send the link and wait for the result.
-* Disadvantages
-  * Probability of introducing malicious code.
-  * Setup and installation requires skill.
-  * Often these tools are outdated and not updated.
+> — So why should we pay a freelancer or create a website by ourselves?
 
+* Softwar disadvantages :
+  * Third-party software may contain malicious code.
+  * You need knowledge to use this software.
+  * Problems with updates for this kind of software.
+  * Detected and blocked by the vast majority of modern browsers.
+  <br>
+* The benefits of building a website manually :
+  * No unnecessary code.
+  * Ease of creation.
+  * Browser responds normally (_Tested mainly on phones_).
+  * Complete control over what happens.
 
-### If you do not know **[how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/)**, a freelancer or me for a modest fee will do it for you.
+### If you do not know **[how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/)**, I will do it for you for a modest fee.
+
+#### The price for my layout services :
+
+> One adaptive web-page / **💲25**.
+
+> Authorization page / **💲25**.
+
+> Authorization page + Two-factor authentication page / **💲50**.
+
+To order, email me.
+
+My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-home).
 
 ## Capturing data from `<form>`
 
 ### We will consider only one of the methods
 
-* Sending data from a `<form>` by a "Telegram" bot :
+* Sending data from a `<form>` by a Telegram bot :
   * First, we need to find a bot with a nickname in "Telegram" : @BotFather
   * Open the bot window, press /start
   * Next we are interested in the /newbot command
