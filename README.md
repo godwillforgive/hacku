@@ -162,17 +162,17 @@ they do everything for you, you only have to send a link to our victim.
 
 > — So why should we pay a freelancer or create a website by ourselves?
 
-* Softwar disadvantages :
-  * Third-party software may contain malicious code.
-  * You need knowledge to use this software.
-  * Problems with updates for this kind of software.
-  * Detected and blocked by the vast majority of modern browsers.
-  <br>
 * The benefits of building a website manually :
   * No unnecessary code.
   * Ease of creation.
   * Browser responds normally (_Tested mainly on phones_).
   * Complete control over what happens.
+
+* Software disadvantages :
+  * Third-party software may contain malicious code.
+  * You need knowledge to use this software.
+  * Problems with updates for this kind of software.
+  * Detected and blocked by the vast majority of modern browsers.
 
 ### If you do not know **[how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/)**, I will do it for you for a modest fee.
 
