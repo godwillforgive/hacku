@@ -8,17 +8,13 @@ The author assumes no responsibility or liability for any misuse or damage cause
 
 ## Introduction
 
-Hello, I want to tell you how to easily hack almost any account,
+Hello, I want to tell you how to easily hack almost any account, <br> be it Instagram, Facebook, Twitter or even Binance, without much effort or skill. 
 
-be it Instagram, Facebook, Twitter or even Binance, without much effort or skill. 
-<br>
-I hope this guide is not a call to action, it is meant to help you understand 
+I hope this guide is not a call to action, it is meant to help you understand <br> **how easy it is to get hacked**, and to **keep you from leaking personal information**.
 
-**how easy it is to get hacked**, and to **keep you from leaking personal information**.
-<br>
 This guide will serve even those people who are far from programming and from IT technologies.
 
-#### We will talk about Phishing and its varieties :
+### We will talk about Phishing :
 
 > Mail Phishing
 
@@ -44,8 +40,6 @@ _Voice phishing, call center._
 
 There are many examples of phishing, we will not list them all, you can read what Phishing is **[here](https://en.wikipedia.org/wiki/Phishing).**
 
-
-
 ## What you need to know
 
 * HTML
@@ -53,10 +47,12 @@ There are many examples of phishing, we will not list them all, you can read wha
   * Very easy to learn.
   * A basic knowledge of this markup language is enough.
   * **[HTML/CSS Course](https://www.freecodecamp.org/learn/responsive-web-design/).**
+
 * CSS
   * Needed for the design of our HTML document.
   * Very easy to learn.
   * **[HTML/CSS Course](https://www.freecodecamp.org/learn/responsive-web-design/).**
+
 * Bootstrap
   * Simplifies and speeds up our page layout process.
   * An open-source framework.
@@ -65,21 +61,16 @@ There are many examples of phishing, we will not list them all, you can read wha
 
 * PHP
   * We need it to capture data from a `<form>`.
-
   * Any server-side programming language will do.
-
   * My choice was PHP only because I already tested this method.
-  
   * You don't need to know PHP, there are many ready-made solutions on the Internet.
-<br>
 
 ### — Why do we need to know this if you say we can do without knowledge and skills?
-<br>
 
 > HTML / CSS / Bootstrap :
 
 It will save you money and time.
-<br>
+
 > Server-side programming language :
 
 You only need to know how to **CTRL+C**, **CTRL+V**.
@@ -99,6 +90,7 @@ Needed to run the server on the local computer.
 * The exception may be third-party programs that XAMPP offers to install along with it, in this case, click "Decline", we need only XAMPP.
 
 ### NGROK
+
 Needed so that our local computer can be connected to from the outside.
 
 #### Setup and adjustment:
@@ -117,18 +109,17 @@ Needed so that our local computer can be connected to from the outside.
 
 ### If you have the skills of web-development, create it yourself.
 
-I will use Instagram as an example.
+For example, I created a fake Instagram authorization page.
 
 Attentive people will immediately notice that this is a fake page.
 
-I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram may not notice the differences.
+I made it literally in 20 minutes, but many people, even those who spend a lot of time on Instagram <br> may not notice the differences.
 
 ![fake instagram page](img/fake-ig.png)
 
 > _The goal of the attacker is to create an exact copy of the authorization page_.
 
-When the makeup is done, it's time to talk about the main component of our site `<form>`.
-<br>
+> When the design of the page is done, it's time to talk about the main component of our site `<form>`.
 
 #### An example of a `<form>` that we will need :
 
