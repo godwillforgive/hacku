@@ -8,12 +8,6 @@ It is the end user's responsibility to comply with all applicable local, state, 
 
 The author assumes no responsibility or liability for any misuse or damage caused by this manual.
 
-### Contact info
-
-E-MAIL: godvvillforgive@gmail.com
-
-Telegram: https://t.me/godwillforgive
-
 ## Introduction
 
 Hello, I want to tell you how to easily hack almost any account, <br> be it Instagram, Facebook, Twitter or even Binance, without much effort or skill. 
@@ -183,9 +177,7 @@ they do everything for you, you only have to send a link to our victim.
 
 > Authorization page + Two-factor authentication page / **💲50**.
 
-To order, email me.
-
-My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-home).
+To order, [email me](mailto:godvvillforgive@gmail.com) or text me on [Telegram](https://t.me/godwillforgive).
 
 ## Capturing data from `<form>` by a Telegram bot
 
