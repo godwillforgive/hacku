@@ -201,9 +201,9 @@ We will need it later.
 
 * Click "New Group" and name the channel as you like.
 * Add the bot we created to your group, the bot is added by its username, for example: `@yourbot`.
-* Now go to our bot and press `/start`, do not touch it again!
+* Go to our bot and press `/start`, do not touch it again!
 * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name `@ShowJsonBot`.
-* After we have added this bot, it should send us a message to the group, we are interested in the line: `"chat": { "id": -111111111}`.
+* After we have added `@ShowJsonBot`, it should send us a message to the group, we are interested in the line: `"chat": { "id": -111111111}`.
 * Copy the id with the “-“ sign we will need it later, you can now remove `@ShowJsonBot` from our group
 
 ### Setting up our **[auth.php](auth.php)**
