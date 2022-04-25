@@ -1,12 +1,18 @@
 # How to hack anyone while drinking tea at home.
 
-### Legal Disclaimer :
+### Legal Disclaimer
 
 It is illegal to use the guide to attack targets without prior mutual consent.
 
 It is the end user's responsibility to comply with all applicable local, state, and federal laws.
 
 The author assumes no responsibility or liability for any misuse or damage caused by this manual.
+
+### Contact info
+
+E-MAIL: godvvillforgive@gmail.com
+
+Telegram: https://t.me/godwillforgive
 
 ## Introduction
 
@@ -248,7 +254,7 @@ My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-ho
 * If you have done everything correctly, the link from ngrok will take you to your local server.
 * Remember to add `/your_folder_name` at the end of the link.
 * Enter a username and password, you can enter any set of letters and numbers, it does not matter, then press "Log In".
-* If the browser redirected us to the "Instagram" page and the username and password came to us in the group, then everything works, congratulations.
+* If the browser redirected us to the Instagram page and the username and password came to us in the group, then everything works, congratulations.
 * The redirect after authorization, you can change in the file **[auth.php](auth.php)**.
 
 `if ($sendToTelegram) {`
@@ -265,7 +271,7 @@ My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-ho
 
 ![fake instagram page](img/ig-access.gif)
 
-The message in the bottom right corner of the screen is the intercepted data from the `<form>`, impressive, isn't it?
+The message in the bottom right corner of the screen is the intercepted data from the `<form>`, <br> impressive, isn't it?
 
 ## Let's go
 
@@ -275,44 +281,41 @@ Definitely not!
 
 Now we are going to talk to you about something without which all of the above would not work : <br> **[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))**.
 
-Thanks specifically to social engineering, this method is one of the most successful in the field of hacking, if not the most successful.
-
 The fact is that people are easily tricked into doing what the attacker wants.
 
 ### Some examples of social engineering :
 
-Imagine a person you know well, whether it's your best friend or one of your parents.
+> Imagine a person you know well, whether it's your best friend or one of your parents.
 
 Do you know their favorite music group? 
+
 The store they frequent most often?
+
 Favorite TV series? A comic book? A book?
 
-Why do we need all these things?
+> Why do we need all these things?
 
-> The more we know about a person, the easier it is to hack them, below is an example of what I am talking about.
+The more we know about a person, the easier it is to hack them, below is an example of what I am talking about.
 
-#### One day I decided to test how good this method is on a member of my family and here is how it was :
+#### This story is fictional and is used as an example.
+
+> One day I decided to test how good this method is on a member of my family and here is how it was :
 
 * I knew that a member of my family adored the band Metallica.
-* I went to the website to see if and when Metallica would be playing in our city.
-* I went to a site that allows you to send text messages to your phone.
-  
+* I opened the concert schedule to see if and when Metallica would be playing in our city.
+* Went to a site that allows you to send text messages to your phone.
   * An example of such a site : https://sms.sellaite.com/index_smssend.php
-  * (_Ideally use a paid sms service, because you can choose the name of the sender, which in turn increases the credibility of the user_)
-
+  * (Ideally use a paid sms service, because you can choose the name of the sender, which in turn increases the credibility of the user).
+* If you run the server through ngrok.exe the link will be long and suspicious, but you can use a link shortening service like :
+  * https://bit.ly <br> https://Tinyurl.com <br> https://t.co <br> etc.
 * Next I sent a message to a member of my family with the following content :
   
   * > Hello %person_name%, you won 2 free tickets to Metallica concert %date_of_concert%, write us on Instagram the delivery address : <br> our-fake-link-to-instagram.com
 
-* I used a local server and ngrok, and since the link to our fake site was very long and unreliable <br> _I decided to shorten the link through a special service for link shortening, examples of such services_ :
-  * https://bit.ly <br> https://Tinyurl.com <br> https://t.co <br> etc.
-  * **When using a local server, your IP will be known to the victim**. <br> (_Use it only if you warned the person about the hack and he gave you permission, otherwise you might be in trouble with the law_).
-
 * Before that, I changed the redirection in the [auth.php](auth.php) file from https://instagram.com to https://instagram.com/concertpage to get rid of suspicions.
-* And, miracle, the login and password came to us within 5 minutes of sending the message.
-> Of course I told my family member that it was me, not the concert organizer.
+* And, miracle, login and password came to us within 5 minutes after sending the message, and, the victim got to the page of the concert organizer and has no idea that it has already been hacked.
 
-#### This was one example of the use of social engineering, <br> I think the principle is clear, the rest depends only on your imagination <br> and availability of information about the person.
+#### Social engineering is really not difficult, but quite effective, I hope the example above is clear enough.
 
 ## OSINT
 
@@ -320,13 +323,29 @@ You can read what OSINT is [here](https://en.wikipedia.org/wiki/Open-source_inte
 
 ### What is it used for?
 
-To search for personal information about a person in the public domain, for example :
+Used to find information about a target in public sources, often phone numbers, hobbies, an example of such information and what it can be used for :
 
-* telephone number
-* date of birth
-* home address
+* Telephone number
+  * _To send you a text message_.
+* Date of birth
+  * _On your birthday you will believe any text message with congratulations and some freebies_.
+* Home address
+  * _A letter of indebtedness to your address and a link to fake banking_.
 * any other information
+  * _You can come up with anything, it all depends on your imagination_.
 
 ## Conclusion
 
-The information in this guide is incomplete, but it will be enough to test the method and see if it works.
+Finally, I would like to remind you that this manual can only be used for educational purposes!
+
+This guide does not cover all the intricacies and nuances of phishing, in particular how attackers manage to remain undetected.
+
+The example was reproduced on a local server, your IP is available to the victim (and consequently to law enforcement) if you use ngrok.
+
+Attackers use DMCA Ignored Hosting for their own purposes.
+
+Two-factor authentication is as easy as capturing the login password.
+
+After the interception, redirect our victim to a pre-created page with two-factor authentication, or rather with a `<form>` for a one-time code, yourself at the same time, go to the site / social network, enter the login password of the victim and waiting for our code.
+
+***Thank you for your attention, I hope this guide was helpful!***
