@@ -83,7 +83,7 @@ You only need to know how to **CTRL+C**, **CTRL+V**.
 
 Needed to run the server on the local computer.
 
-#### Setup and adjustment:
+#### Setup and adjustment :
 
 * **[Download from official site](https://www.apachefriends.org/ru/index.html).**
 
@@ -95,7 +95,7 @@ Needed to run the server on the local computer.
 
 Needed so that our local computer can be connected to from the outside.
 
-#### Setup and adjustment:
+#### Setup and adjustment :
 
 * First of all, you need to **[sign up](https://dashboard.ngrok.com/signup)** to get your personal token.
 
@@ -200,10 +200,10 @@ My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-ho
 (WE NEED TO CREATE GROUP NOT ~~CHANNEL~~)
 
 * Click "New Group" and name the channel as you like.
-* Add the bot we created to your group, the bot is added by its username, for example: `@yourbot`.
+* Add the bot we created to your group, the bot is added by its username, for example : `@yourbot`.
 * Go to our bot and press `/start`, do not touch it again!
 * Now we need to know our chat_id in the group we created, to do that you need to add another bot to the group with a name `@ShowJsonBot`.
-* After we have added `@ShowJsonBot`, it should send us a message to the group, we are interested in the line: `"chat": { "id": -111111111}`.
+* After we have added `@ShowJsonBot`, it should send us a message to the group, we are interested in the line : `"chat": { "id": -111111111}`.
 * Copy the id with the “-“ sign we will need it later, you can now remove `@ShowJsonBot` from our group
 
 ### Setting up our **[auth.php](auth.php)**
@@ -273,7 +273,7 @@ The message in the bottom right corner of the screen is the intercepted data fro
 
 Definitely not!
 
-Now we are going to talk to you about something without which all of the above would not work: <br> **[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))**.
+Now we are going to talk to you about something without which all of the above would not work : <br> **[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))**.
 
 Thanks specifically to social engineering, this method is one of the most successful in the field of hacking, if not the most successful.
 
@@ -297,16 +297,36 @@ Why do we need all these things?
 * I went to the website to see if and when Metallica would be playing in our city.
 * I went to a site that allows you to send text messages to your phone.
   
-  * An example of such a site: https://sms.sellaite.com/index_smssend.php
+  * An example of such a site : https://sms.sellaite.com/index_smssend.php
   * (_Ideally use a paid sms service, because you can choose the name of the sender, which in turn increases the credibility of the user_)
 
 * Next I sent a message to a member of my family with the following content :
   
-  * > Hello %person_name%, you won 2 free tickets to Metallica concert %date_of_concert%, write us on Instagram the delivery address: <br> our-fake-link-to-instagram.com
+  * > Hello %person_name%, you won 2 free tickets to Metallica concert %date_of_concert%, write us on Instagram the delivery address : <br> our-fake-link-to-instagram.com
 
-* I used a local server and ngrok and since the link to our fake site was very long and untrustworthy, <br> I used a service to shorten the links, examples of such services:
-  * https://bit.ly, <br> https://Tinyurl.com, <br> https://t.co etc.
+* I used a local server and ngrok, and since the link to our fake site was very long and unreliable <br> _I decided to shorten the link through a special service for link shortening, examples of such services_ :
+  * https://bit.ly <br> https://Tinyurl.com <br> https://t.co <br> etc.
+  * **When using a local server, your IP will be known to the victim**. <br> (_Use it only if you warned the person about the hack and he gave you permission, otherwise you might be in trouble with the law_).
 
 * Before that, I changed the redirection in the [auth.php](auth.php) file from https://instagram.com to https://instagram.com/concertpage to get rid of suspicions.
 * And, miracle, the login and password came to us within 5 minutes of sending the message.
 > Of course I told my family member that it was me, not the concert organizer.
+
+#### This was one example of the use of social engineering, <br> I think the principle is clear, the rest depends only on your imagination <br> and availability of information about the person.
+
+## OSINT
+
+You can read what OSINT is [here](https://en.wikipedia.org/wiki/Open-source_intelligence).
+
+### What is it used for?
+
+To search for personal information about a person in the public domain, for example :
+
+* telephone number
+* date of birth
+* home address
+* any other information
+
+## Conclusion
+
+The information in this guide is incomplete, but it will be enough to test the method and see if it works.
