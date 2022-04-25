@@ -208,7 +208,7 @@ We will need it later.
 
 ### Setting up our **[auth.php](auth.php)**
 
-If you have not changed the attribute `name=""` from our **[index.php](index.php)** `<form>`, <br> leave the variables `$name` and `$password` unchanged.
+If you have not changed the attribute `<input name="">` from our **[index.php](index.php)** `<form>`, <br> leave the variables `$name` and `$password` unchanged.
 
 * $token
   * In the `$token` variable, we need to insert the token that we got when we created the bot from `@BotFather`.
