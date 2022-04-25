@@ -61,7 +61,7 @@ There are many examples of phishing, we will not list them all, you can read wha
   * Used to create the layout of adaptive web pages.
   * **[Bootstrap Introduction](https://getbootstrap.com/docs/5.1/getting-started/introduction/)**
 
-* PHP
+* PHP (_or any other server-side programming language_)
   * We need it to capture data from a `<form>`.
   * Any server-side programming language will do.
   * My choice was PHP only because I already tested this method.
@@ -191,9 +191,9 @@ My information is in the [contacts](#how-to-hack-anyone-while-drinking-tea-at-ho
 * @BotFather will ask for a name for our bot. The name is what will be displayed in the chat list.
 * @BotFather asks us to set the username for the bot, username must end with the prefix "bot".
 
-After we submit our username, @BotFather tells us that the bot was successfully created and gives us a token to access the bot via the HTTP API. 
+> After we submit our username, @BotFather tells us that the bot was successfully created and gives us a token to access the bot via the HTTP API. 
 
-We will need it later.
+> We will need it later.
 
 ### Creating a Telegram group 
 
@@ -208,14 +208,14 @@ We will need it later.
 
 ### Setting up our **[auth.php](auth.php)**
 
-If you have not changed the attribute `<input name="">` from our **[index.php](index.php)** `<form>`, <br> leave the variables `$name` and `$password` unchanged.
+> If you have not changed the attribute `<input name="">` from our **[index.php](index.php)** `<form>`, <br> leave the variables `$name` and `$password` unchanged.
 
 * $token
   * In the `$token` variable, we need to insert the token that we got when we created the bot from `@BotFather`.
 * $chat_id
   * In the variable `$chat_id`, insert the id of the chat that we received in our group from the bot `@ShowJsonBot`.
 
-There are comments in the **[auth.php](auth.php)** file itself to help you understand the rest of the code we can work with.
+> There are comments in the **[auth.php](auth.php)** file itself to help you understand the rest of the code we can work with.
 
 ## Start our server
 
@@ -251,15 +251,15 @@ There are comments in the **[auth.php](auth.php)** file itself to help you under
 * If the browser redirected us to the "Instagram" page and the username and password came to us in the group, then everything works, congratulations.
 * The redirect after authorization, you can change in the file **[auth.php](auth.php)**.
 
- `if ($sendToTelegram) {`
+`if ($sendToTelegram) {`
 
- **`header('Location: https://instagram.com);`**
+<ins>`header('Location: https://instagram.com);`</ins>
 
- `} else {`
+`} else {`
 
- `echo "Error";`
+`echo "Error";`
 
- `}`
+`}`
 
 ### Here's what I got :
 
@@ -273,8 +273,40 @@ The message in the bottom right corner of the screen is the intercepted data fro
 
 Definitely not!
 
-Now we are going to talk to you about something without which all of the above would not work: ***[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))***.
+Now we are going to talk to you about something without which all of the above would not work: <br> **[social engineering](https://en.wikipedia.org/wiki/Social_engineering_(security))**.
 
 Thanks specifically to social engineering, this method is one of the most successful in the field of hacking, if not the most successful.
 
 The fact is that people are easily tricked into doing what the attacker wants.
+
+### Some examples of social engineering :
+
+Imagine a person you know well, whether it's your best friend or one of your parents.
+
+Do you know their favorite music group? 
+The store they frequent most often?
+Favorite TV series? A comic book? A book?
+
+Why do we need all these things?
+
+> The more we know about a person, the easier it is to hack them, below is an example of what I am talking about.
+
+#### One day I decided to test how good this method is on a member of my family and here is how it was :
+
+* I knew that a member of my family adored the band Metallica.
+* I went to the website to see if and when Metallica would be playing in our city.
+* I went to a site that allows you to send text messages to your phone.
+  
+  * An example of such a site: https://sms.sellaite.com/index_smssend.php
+  * (_Ideally use a paid sms service, because you can choose the name of the sender, which in turn increases the credibility of the user_)
+
+* Next I sent a message to a member of my family with the following content :
+  
+  * > Hello %person_name%, you won 2 free tickets to Metallica concert %date_of_concert%, write us on Instagram the delivery address: <br> our-fake-link-to-instagram.com
+
+* I used a local server and ngrok and since the link to our fake site was very long and untrustworthy, <br> I used a service to shorten the links, examples of such services:
+  * https://bit.ly, https://Tinyurl.com, https://t.co etc.
+
+* Before that, I changed the redirection in the [auth.php](auth.php) file from https://instagram.com to https://instagram.com/concertpage to get rid of suspicions.
+* And, miracle, the login and password came to us within 5 minutes of sending the message.
+> Of course I told my family member that it was me, not the concert organizer.
