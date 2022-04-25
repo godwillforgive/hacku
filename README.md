@@ -305,7 +305,7 @@ Why do we need all these things?
   * > Hello %person_name%, you won 2 free tickets to Metallica concert %date_of_concert%, write us on Instagram the delivery address: <br> our-fake-link-to-instagram.com
 
 * I used a local server and ngrok and since the link to our fake site was very long and untrustworthy, <br> I used a service to shorten the links, examples of such services:
-  * https://bit.ly, https://Tinyurl.com, https://t.co etc.
+  * https://bit.ly, <br> https://Tinyurl.com, <br> https://t.co etc.
 
 * Before that, I changed the redirection in the [auth.php](auth.php) file from https://instagram.com to https://instagram.com/concertpage to get rid of suspicions.
 * And, miracle, the login and password came to us within 5 minutes of sending the message.
