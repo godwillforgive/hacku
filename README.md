@@ -185,7 +185,9 @@ they do everything for you, you only have to send a link to our victim.
 
 > Authorization page + Two-factor authentication page / **💲50**.
 
-To order, [email me](mailto:godvvillforgive@gmail.com) or text me on [Telegram](https://t.me/godwillforgive).
+To order, [email me](mailto:godvvillforgive@gmail.com).
+
+Or order the page layout from a freelancer.
 
 ## Capturing data from `<form>` by a Telegram bot
 
