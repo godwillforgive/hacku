@@ -8,6 +8,14 @@ It is the end user's responsibility to comply with all applicable local, state, 
 
 The author assumes no responsibility or liability for any misuse or damage caused by this manual.
 
+### If this guide has helped you, please support me with a donation:
+
+EUR: https://godwillforgive.diaka.ua/donate
+
+Binance Pay ID: 278372815
+
+Steam Trade: https://steamcommunity.com/tradeoffer/new/?partner=351191404&token=FYW101R8
+
 ## Introduction
 
 Hello, I want to tell you how to easily hack almost any account, <br> be it Instagram, Facebook, Twitter or even Binance, without much effort or skill. 
