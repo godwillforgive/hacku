@@ -135,19 +135,19 @@ I made it literally in 20 minutes, but many people, even those who spend a lot o
 
 `<form action="auth.php" method="POST">`
 
-> _The action="" attribute specifies where to send the form-data when a form is submitted._
+> _The `action=""` attribute specifies where to send the form-data when a form is submitted._
 
 `<label for="username"></label>`
                 
 `<input type="text" name="user_name" placeholder="Phone number, username or email">`
 
-> _The attribute <input name=""> must match the value of the variable **$name in the [auth.php](auth.php)** file_
+> _The attribute `<input name="">` must match the value of the variable **$name in the [auth.php](auth.php)** file_
                 
 `<label for="pwd"></label>`
                 
 `<input type="password" name="user_password" placeholder="Password">`
 
-> _The attribute <input name=""> must match the value of the variable **$password in the [auth.php](auth.php)** file_
+> _The attribute `<input name="">` must match the value of the variable **$password in the [auth.php](auth.php)** file_
                 
 `<input id="submit" type="submit" value="Log In">`
 
