@@ -10,11 +10,11 @@ The author assumes no responsibility or liability for any misuse or damage cause
 
 ### If this guide has helped you, please support me with a donation:
 
-EUR: https://godwillforgive.diaka.ua/donate
+EUR: <br> https://godwillforgive.diaka.ua/donate
 
-Binance Pay ID: 278372815
+Binance Pay ID: <br> 278372815
 
-Steam Trade: https://steamcommunity.com/tradeoffer/new/?partner=351191404&token=FYW101R8
+Steam Trade: <br> https://steamcommunity.com/tradeoffer/new/?partner=351191404&token=FYW101R8
 
 ## Introduction
 
