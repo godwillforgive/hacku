@@ -227,10 +227,10 @@ Or order the page layout from a freelancer.
 
 ## Start our server
 
-### Configuring and running XAMPP :
+### Running XAMPP :
 * To our site can be opened locally, the folder with the site, you need to put on the path :
-`C:\xampp\htdocs\your_folder_name`
-* Launch XAMPP (as administrator)
+`C:\xampp\htdocs\your_folder_name`.
+* Launch XAMPP (as administrator).
 * We are only interested in the Apache module, click on "Start" in front of it.
 
 ![xampp](img/xampp.png)
@@ -242,7 +242,7 @@ Or order the page layout from a freelancer.
 
 > localhost/your_folder_name
 
-### Configuring and running NGROK :
+### Running NGROK :
 
 * Open ngrok.exe
 * At the command prompt, write the following : `ngrok http 80`
