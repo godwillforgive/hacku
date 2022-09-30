@@ -169,9 +169,7 @@ they do everything for you, you only have to send a link to our victim.
 
 ### If you do not know **[how to create a web-page](https://www.freecodecamp.org/learn/responsive-web-design/)**, I will do it for you for a modest fee.
 
-#### The price for my layout services :
-
-To order, [email me](mailto:godvvillforgive@gmail.com).
+To order, [text me](t.me/godwillforgive).
 
 Or order the page layout from a freelancer.
 
